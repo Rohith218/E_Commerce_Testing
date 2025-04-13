@@ -1,0 +1,84 @@
+2025-04-13 12:08:12,491 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 12:08:21,707 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 12:09:13,477 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 12:09:14,404 [main] INFO  pages.Login_Page - User name entered
+2025-04-13 12:09:15,446 [main] INFO  pages.Login_Page - pw entered
+2025-04-13 12:09:15,736 [main] INFO  pages.Login_Page - logged in
+2025-04-13 12:09:21,242 [main] INFO  pages.Login_Page - Page loading with correct pw
+2025-04-13 12:09:21,655 [main] INFO  pages.Login_Page - login  displayed
+2025-04-13 12:09:21,655 [main] INFO  setup.Setup - Login Button Displayed after successful Logout!
+2025-04-13 12:09:27,488 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 12:10:33,324 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 12:10:39,379 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 12:11:37,516 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 12:11:43,550 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 12:12:29,215 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 12:12:29,693 [main] INFO  pages.Login_Page - User name cleared
+2025-04-13 12:12:29,811 [main] INFO  pages.Login_Page - pw cleared
+2025-04-13 12:12:30,149 [main] INFO  pages.Login_Page - logged in
+2025-04-13 12:12:35,659 [main] FATAL pages.Login_Page - Page loading with incorrect pw
+2025-04-13 12:12:35,689 [main] FATAL setup.Setup - Login sucess with empty cred
+2025-04-13 12:12:41,542 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 12:13:43,057 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 12:13:43,573 [main] INFO  pages.Login_Page - User name cleared
+2025-04-13 12:13:43,622 [main] INFO  pages.Login_Page - pw cleared
+2025-04-13 12:13:43,830 [main] INFO  pages.Login_Page - logged in
+2025-04-13 12:13:49,368 [main] FATAL pages.Login_Page - Page loading with incorrect pw
+2025-04-13 12:13:49,376 [main] INFO  setup.Setup - Login should fail with empty credentials.
+2025-04-13 12:13:55,224 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 12:15:49,586 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 12:15:50,063 [main] INFO  pages.Login_Page - User name cleared
+2025-04-13 12:15:50,107 [main] INFO  pages.Login_Page - pw cleared
+2025-04-13 12:15:50,222 [main] INFO  pages.Login_Page - logged in
+2025-04-13 12:15:55,704 [main] FATAL pages.Login_Page - Page loading with incorrect pw
+2025-04-13 12:15:55,720 [main] INFO  setup.Setup - Login should fail with empty credentials.
+2025-04-13 12:16:01,590 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 12:17:12,058 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 12:17:12,524 [main] INFO  pages.Login_Page - User name cleared
+2025-04-13 12:17:12,641 [main] INFO  pages.Login_Page - pw cleared
+2025-04-13 12:17:12,949 [main] INFO  pages.Login_Page - logged in
+2025-04-13 12:17:18,519 [main] FATAL pages.Login_Page - Page loading with incorrect pw
+2025-04-13 12:17:18,550 [main] FATAL setup.Setup - Login sucess with empty cred
+2025-04-13 12:17:24,561 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 12:22:12,988 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 12:22:13,717 [main] INFO  pages.Login_Page - User name entered
+2025-04-13 12:22:14,098 [main] INFO  pages.Login_Page - pw entered
+2025-04-13 12:22:14,221 [main] INFO  pages.Login_Page - logged in
+2025-04-13 12:22:19,722 [main] INFO  pages.Login_Page - Page loading with correct pw
+2025-04-13 12:22:19,727 [main] INFO  setup.Setup - Login Success
+2025-04-13 12:22:25,551 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 12:22:25,560 [main] INFO  setup.Setup - ========== Starting Test: com.google.protobuf.Descriptors$Descriptor@55322aab ==========
+2025-04-13 12:22:30,441 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 12:22:30,840 [main] INFO  pages.Login_Page - User name entered
+2025-04-13 12:22:31,019 [main] INFO  pages.Login_Page - pw entered
+2025-04-13 12:22:31,106 [main] INFO  pages.Login_Page - logged in
+2025-04-13 12:22:31,244 [main] INFO  pages.Login_Page - Login failed: Invalid username or password!
+2025-04-13 12:22:31,294 [main] INFO  pages.Login_Page - logout  displayed
+2025-04-13 12:22:31,297 [main] INFO  setup.Setup - Login should fail with incorrect credentials.
+2025-04-13 12:22:37,211 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 12:22:37,221 [main] INFO  setup.Setup - ========== Starting Test: com.google.protobuf.Descriptors$Descriptor@55322aab ==========
+2025-04-13 12:22:39,976 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 12:22:40,407 [main] INFO  pages.Login_Page - User name entered
+2025-04-13 12:22:40,606 [main] INFO  pages.Login_Page - pw entered
+2025-04-13 12:22:40,700 [main] INFO  pages.Login_Page - logged in
+2025-04-13 12:22:46,222 [main] INFO  pages.Login_Page - Page loading with correct pw
+2025-04-13 12:22:46,269 [main] INFO  pages.Login_Page - logout  displayed
+2025-04-13 12:22:46,269 [main] INFO  setup.Setup - logout button available
+2025-04-13 12:22:51,945 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 12:22:51,953 [main] INFO  setup.Setup - ========== Starting Test: com.google.protobuf.Descriptors$Descriptor@55322aab ==========
+2025-04-13 12:22:54,723 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 12:22:55,278 [main] INFO  pages.Login_Page - User name entered
+2025-04-13 12:22:55,494 [main] INFO  pages.Login_Page - pw entered
+2025-04-13 12:22:55,701 [main] INFO  pages.Login_Page - logged in
+2025-04-13 12:23:01,159 [main] INFO  pages.Login_Page - Page loading with correct pw
+2025-04-13 12:23:01,514 [main] INFO  pages.Login_Page - login  displayed
+2025-04-13 12:23:01,514 [main] INFO  setup.Setup - Login Button Displayed after successful Logout!
+2025-04-13 12:23:07,327 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 12:23:07,335 [main] INFO  setup.Setup - ========== Starting Test: com.google.protobuf.Descriptors$Descriptor@55322aab ==========
+2025-04-13 12:23:12,066 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 12:23:12,391 [main] INFO  pages.Login_Page - User name cleared
+2025-04-13 12:23:12,444 [main] INFO  pages.Login_Page - pw cleared
+2025-04-13 12:23:12,577 [main] INFO  pages.Login_Page - logged in
+2025-04-13 12:23:18,011 [main] FATAL pages.Login_Page - Page loading with incorrect pw
+2025-04-13 12:23:18,028 [main] FATAL setup.Setup - Login sucess with empty cred
+2025-04-13 12:23:23,877 [main] INFO  setup.Setup - Browser closed successfully.
