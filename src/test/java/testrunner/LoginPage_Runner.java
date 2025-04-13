@@ -85,7 +85,7 @@ public class LoginPage_Runner extends Setup {
 		System.out.println(isLoggedIn + " loged in or not");
 		a.assertFalse( isLoggedIn,"Login should fail with incorrect credentials.");
 		if(!isLoggedIn) {
-			logs.info("Login should fail with incorrect credentials.");
+			logs.info("Login should fail with incorrect credentials...");
 		}else {
 			logs.fatal("Login sucess");
 		}
