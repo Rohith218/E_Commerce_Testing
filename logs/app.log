@@ -336,3 +336,63 @@
 2025-04-13 20:08:10,310 [main] INFO  setup.Setup - Payment done as expected
 2025-04-13 20:08:10,310 [main] INFO  setup.Setup - ========== Starting Test: com.google.protobuf.Descriptors$Descriptor@4ff4357f ==========
 2025-04-13 20:08:16,428 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 20:44:56,926 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 20:44:57,245 [main] INFO  pages.Login_Page - User name entered
+2025-04-13 20:44:57,342 [main] INFO  pages.Login_Page - pw entered
+2025-04-13 20:44:57,407 [main] INFO  pages.Login_Page - logged in
+2025-04-13 20:45:02,733 [main] INFO  pages.Login_Page - Page loading with correct pw
+2025-04-13 20:45:06,637 [main] INFO  setup.Setup - Payment done as expected
+2025-04-13 20:45:06,667 [main] INFO  setup.Setup - ========== Starting Test: com.google.protobuf.Descriptors$Descriptor@77d381e6 ==========
+2025-04-13 20:45:12,067 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 20:45:12,073 [main] INFO  setup.Setup - ========== Starting Test: com.google.protobuf.Descriptors$Descriptor@77d381e6 ==========
+2025-04-13 20:45:14,339 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 20:45:14,640 [main] INFO  pages.Login_Page - User name entered
+2025-04-13 20:45:14,743 [main] INFO  pages.Login_Page - pw entered
+2025-04-13 20:45:14,811 [main] INFO  pages.Login_Page - logged in
+2025-04-13 20:45:20,202 [main] INFO  pages.Login_Page - Page loading with correct pw
+2025-04-13 20:45:23,776 [main] INFO  setup.Setup - Payment done as expected
+2025-04-13 20:45:23,789 [main] INFO  setup.Setup - ========== Starting Test: com.google.protobuf.Descriptors$Descriptor@77d381e6 ==========
+2025-04-13 20:45:29,182 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 20:45:29,186 [main] INFO  setup.Setup - ========== Starting Test: com.google.protobuf.Descriptors$Descriptor@77d381e6 ==========
+2025-04-13 20:45:33,048 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 20:45:33,325 [main] INFO  pages.Login_Page - User name entered
+2025-04-13 20:45:33,430 [main] INFO  pages.Login_Page - pw entered
+2025-04-13 20:45:33,491 [main] INFO  pages.Login_Page - logged in
+2025-04-13 20:45:38,835 [main] INFO  pages.Login_Page - Page loading with correct pw
+2025-04-13 20:45:38,836 [main] INFO  setup.Setup - Login Success
+2025-04-13 20:45:44,193 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 20:45:44,195 [main] INFO  setup.Setup - ========== Starting Test: com.google.protobuf.Descriptors$Descriptor@77d381e6 ==========
+2025-04-13 20:45:53,710 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 20:45:54,029 [main] INFO  pages.Login_Page - User name entered
+2025-04-13 20:45:54,145 [main] INFO  pages.Login_Page - pw entered
+2025-04-13 20:45:54,199 [main] INFO  pages.Login_Page - logged in
+2025-04-13 20:45:54,242 [main] INFO  pages.Login_Page - Login failed: Invalid username or password!
+2025-04-13 20:45:54,254 [main] INFO  pages.Login_Page - logout  displayed
+2025-04-13 20:45:54,255 [main] INFO  setup.Setup - Login should fail with incorrect credentials...
+2025-04-13 20:45:59,602 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 20:45:59,606 [main] INFO  setup.Setup - ========== Starting Test: com.google.protobuf.Descriptors$Descriptor@77d381e6 ==========
+2025-04-13 20:46:02,698 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 20:46:02,978 [main] INFO  pages.Login_Page - User name entered
+2025-04-13 20:46:03,088 [main] INFO  pages.Login_Page - pw entered
+2025-04-13 20:46:03,146 [main] INFO  pages.Login_Page - logged in
+2025-04-13 20:46:08,465 [main] INFO  pages.Login_Page - Page loading with correct pw
+2025-04-13 20:46:08,488 [main] INFO  pages.Login_Page - logout  displayed
+2025-04-13 20:46:08,488 [main] INFO  setup.Setup - logout button available
+2025-04-13 20:46:14,093 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 20:46:14,097 [main] INFO  setup.Setup - ========== Starting Test: com.google.protobuf.Descriptors$Descriptor@77d381e6 ==========
+2025-04-13 20:46:17,383 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 20:46:17,766 [main] INFO  pages.Login_Page - User name entered
+2025-04-13 20:46:17,933 [main] INFO  pages.Login_Page - pw entered
+2025-04-13 20:46:18,004 [main] INFO  pages.Login_Page - logged in
+2025-04-13 20:46:23,299 [main] INFO  pages.Login_Page - Page loading with correct pw
+2025-04-13 20:46:23,384 [main] INFO  pages.Login_Page - login  displayed
+2025-04-13 20:46:23,384 [main] INFO  setup.Setup - Login Button Displayed after successful Logout!
+2025-04-13 20:46:28,787 [main] INFO  setup.Setup - Browser closed successfully.
+2025-04-13 20:46:28,791 [main] INFO  setup.Setup - ========== Starting Test: com.google.protobuf.Descriptors$Descriptor@77d381e6 ==========
+2025-04-13 20:46:30,924 [main] INFO  setup.Setup - Driver Opened
+2025-04-13 20:46:31,170 [main] INFO  pages.Login_Page - User name cleared
+2025-04-13 20:46:31,201 [main] INFO  pages.Login_Page - pw cleared
+2025-04-13 20:46:31,290 [main] INFO  pages.Login_Page - logged in
+2025-04-13 20:46:36,662 [main] FATAL pages.Login_Page - Page loading with incorrect pw
+2025-04-13 20:46:36,675 [main] FATAL setup.Setup - Login sucess with empty cred
+2025-04-13 20:46:42,067 [main] INFO  setup.Setup - Browser closed successfully.
