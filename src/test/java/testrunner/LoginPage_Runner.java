@@ -25,6 +25,7 @@ import org.testng.asserts.SoftAssert;
 import com.google.protobuf.Method;
 
 import Resources.ExcelReader;
+import Resources.Screenshot;
 import pages.Login_Page;
 import setup.Setup;
 
@@ -37,6 +38,7 @@ public class LoginPage_Runner extends Setup {
 
 	Login_Page loginPage;
     SoftAssert a;
+    Screenshot s;
 	
 	@BeforeMethod
 	public void setup() throws IOException {
@@ -44,6 +46,7 @@ public class LoginPage_Runner extends Setup {
         super.setup();
         loginPage = new Login_Page();
         a = new SoftAssert();
+        s = new Screenshot();
 	}
 	
 	@Test(priority = 1, description = "User gives valid credentials and login is successful")
@@ -53,8 +56,10 @@ public class LoginPage_Runner extends Setup {
 		a.assertTrue( isLoggedIn,"Login Successful.");
 		if(isLoggedIn) {
 			logs.info("Login Success");
+			s.takeScreenshot("SuccessfullLogin");
 		}else {
 			logs.fatal("Login Failed");
+			s.takeScreenshot("Login Failed");
 		}
 		a.assertAll();
 	}
@@ -71,8 +76,10 @@ public class LoginPage_Runner extends Setup {
 		boolean logoutButtonDisplay = loginPage.isLogoutDisplayed();
 		if (logoutButtonDisplay) {
 			logs.info("logout button available");
+			s.takeScreenshot("logout button available");
 		} else {
 			logs.fatal("logout notbutton available");
+			s.takeScreenshot("logout notbutton available");
 		}
 		a.assertTrue( logoutButtonDisplay,"logout Button Displayed");
 		a.assertAll();
@@ -86,8 +93,11 @@ public class LoginPage_Runner extends Setup {
 		a.assertFalse( isLoggedIn,"Login should fail with incorrect credentials.");
 		if(!isLoggedIn) {
 			logs.info("Login should fail with incorrect credentials...");
+			s.takeScreenshot("Login should fail with incorrect credentials...");
+			
 		}else {
 			logs.fatal("Login sucess");
+			s.takeScreenshot("Login sucess");
 		}
 		a.assertAll();
 
@@ -103,8 +113,10 @@ public class LoginPage_Runner extends Setup {
 		
 		if (isLogInDisplayed) {
 			logs.info("Login Button Displayed after successful Logout!");
+			s.takeScreenshot("Login Button Displayed after successful Logout");
 		} else {
 			logs.fatal("login notbutton available");
+			s.takeScreenshot("login notbutton available");
 		}
 		a.assertAll();
 	}
@@ -117,8 +129,10 @@ public class LoginPage_Runner extends Setup {
 		System.out.println(isLoggedIn);
 		if(isLoggedIn) {
 			logs.fatal("Login sucess with empty cred");
+			s.takeScreenshot("Login sucess with empty cred");
 		}else {
 			logs.info("Login should fail with empty credentials.");
+			s.takeScreenshot("Login should fail with empty credentials.");
 		}
 		a.assertAll();
 
