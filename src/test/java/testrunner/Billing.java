@@ -25,6 +25,7 @@ import org.testng.asserts.SoftAssert;
 import com.google.protobuf.Method;
 
 import Resources.ExcelReader;
+import Resources.Screenshot;
 import pages.Book_Selection;
 import pages.Login_Page;
 import setup.Setup;
@@ -40,6 +41,7 @@ public class Billing extends Setup {
 	Login_Page loginPage;
 	Book_Selection bs;
     SoftAssert a;
+    Screenshot s;
 	
 	@BeforeMethod
 	public void setup() throws IOException {
@@ -48,6 +50,7 @@ public class Billing extends Setup {
         loginPage = new Login_Page();
         bs = new Book_Selection();
         a = new SoftAssert();
+        s = new Screenshot();
         loginPage.initialize();
 		loginPage.enterCorrectCred();
 		bs.initialize();
@@ -59,6 +62,7 @@ public class Billing extends Setup {
 		bs.displayTotal();
 		bs.checkOut();
 		a.assertTrue(bs.payment(), "Checkout not done");
+		s.takeScreenshot("Checkout page");
 	}
 	@Test(priority = 2,description = "Sample2formultipleScenarioInstance")
 	public void Selection2() throws IOException, InterruptedException, AWTException {
@@ -67,6 +71,7 @@ public class Billing extends Setup {
 		bs.displayTotal();
 		bs.checkOut();
 		a.assertTrue(bs.payment(), "Checkout not done");
+		s.takeScreenshot("Checkout page");
 	}
 	
 	@AfterMethod

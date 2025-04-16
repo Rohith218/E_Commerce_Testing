@@ -1,5 +1,7 @@
 package Resources;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -10,21 +12,19 @@ import setup.Setup;
 import java.io.File;
 
 public class Screenshot extends Setup{
+	
+	public Logger logs = LogManager.getLogger(Screenshot.class);
     public void takeScreenshot( String fileName) {
         try {
-            // Convert WebDriver object to TakesScreenshot
-            TakesScreenshot screenshot = (TakesScreenshot) driver;
-
-            // Capture screenshot as a File
-            File srcFile = screenshot.getScreenshotAs(OutputType.FILE);
-
-            // Define destination path
-            File destFile = new File("./screenshots/" + fileName + ".png");
-
-            // Copy file to destination
-            FileHandler.copy(srcFile, destFile);
-
-            System.out.println("Screenshot saved: " + destFile.getAbsolutePath());
+            TakesScreenshot ss = (TakesScreenshot) driver;
+            
+            File src = ss.getScreenshotAs(OutputType.FILE);
+            
+            File des = new File("./screenshot/"+ fileName + ".png");
+            
+            FileHandler.copy(src, des);
+            
+            logs.info("Screenshot saved: " + des.getAbsolutePath());
         } catch (Exception e) {
             e.printStackTrace();
         }
