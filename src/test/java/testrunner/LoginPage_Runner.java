@@ -22,6 +22,9 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.google.protobuf.Method;
 
 import Resources.ExcelReader;
@@ -39,6 +42,8 @@ public class LoginPage_Runner extends Setup {
 	Login_Page loginPage;
     SoftAssert a;
     Screenshot s;
+    ExtentReports extent;
+    ExtentTest test;
 	
 	@BeforeMethod
 	public void setup() throws IOException {
@@ -47,6 +52,10 @@ public class LoginPage_Runner extends Setup {
         loginPage = new Login_Page();
         a = new SoftAssert();
         s = new Screenshot();
+        ExtentSparkReporter sparkReporter = new ExtentSparkReporter("test-output/ExtentReport.html");
+        extent = new ExtentReports();
+        extent.attachReporter(sparkReporter);
+        extent.setSystemInfo("Tester", "Rohith");
 	}
 	
 	@Test(priority = 1, description = "User gives valid credentials and login is successful")
