@@ -43,6 +43,7 @@ public class LoginPage_Runner extends Setup {
     SoftAssert a;
     Screenshot s;
     ExtentReports extent;
+    
     ExtentTest test;
 	
 	@BeforeMethod
